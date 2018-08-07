@@ -1,0 +1,27 @@
+{
+  "name": "cstn",
+  "version": "1.0.0",
+  "description": "CS 1.6 Tournament website",
+  "main": "index.js",
+  "scripts": {
+      "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cstournament/website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cstournament/website/issues"
+  },
+  "homepage": "https://github.com/cstournament/website#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "edge.js": "^1.1.4",
+    "polka": "^0.4.0",
+    "serve-static": "^1.13.2"
+  }
+}
