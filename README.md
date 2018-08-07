@@ -1,6 +1,10 @@
 # website
 CS 1.6 Tournament website
 
+# prerequis
+
+- Install MariaDB
+
 # to do
 
 - Mettre en place une base MySQL
