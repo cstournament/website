@@ -1,6 +1,7 @@
-body, html, div, ul, li, p, span, b, h1, h2, h3, h4, h5, h6, label, input, form {
+body, html, div, ul, li, p, span, b, h1, h2, h3, h4, h5, h6, label, input, form, aside, section, main {
     margin: 0;
     padding: 0;
+    font-family: Roboto;
 }
 
 input {
@@ -20,3 +21,14 @@ a {
     color: inherit;
     text-decoration: none;
 }
+
+section.centered {
+    width: 70vw;
+    margin: auto;
+    position: relative;
+    height: inherit;
+    display: flex;
+}
+    section.centered.column {
+        flex-direction: column;
+    }

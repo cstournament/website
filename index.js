@@ -8,6 +8,9 @@ const serv = require("serve-static");
 const bodyParser = require("body-parser");
 
 // Execute config
+edge.configure({
+    cache: false
+});
 edge.registerViews(join(__dirname, "view"));
 
 // Create http server
