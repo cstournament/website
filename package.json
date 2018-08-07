@@ -4,7 +4,7 @@
   "description": "CS 1.6 Tournament website",
   "main": "index.js",
   "scripts": {
-      "start": "node index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +21,7 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "edge.js": "^1.1.4",
+    "mysql2": "^1.6.1",
     "polka": "^0.4.0",
     "serve-static": "^1.13.2"
   }
