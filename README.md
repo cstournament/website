@@ -5,12 +5,17 @@ CS 1.6 Tournament website
 
 - Install MariaDB
 
-# to do
+# Todo major
 
-- Inscription/Connexion (login, password, email, steam id).
-- Gestion des pages
-- Création d'une équipe (nom, from, tag, lien, avatar)
-- Rejoindre une équipe en tant qu'utilisateur
-- Gérer les membres d'une équipe.
-- Création d'un tournoi (nom, description, place).
-- Inscrire son équipe à un tournoi
+- Inscription d'un utilisateur.
+- Connexion d'un utilisateur.
+- Création d'une équipe (Un utilisateur ne peut pas créer plusieurs équipes).
+- Rejoindre une équipe en tant qu'utilisateur (Ne peut pas rejoindre plusieurs équipes).
+- Gérer les membres d'une équipe (Exclure, Accepter les demandes en attente, Passer un membre en administrateur de l'équipe).
+- Création d'un tournoi (Uniquement possible pour les administrateurs du site).
+- Inscrire son équipe à un tournoi.
+- Les administrateurs peuvent accepter ou refuser une équipe.
+- Pouvoir configurer le tournoi en plusieurs étapes (stages, arbres avec winner et/ou looser bracket).
+- Travailler les différentes mécanique d'un arbre / stages.
+- Travailler les différentes mécanique des matchs.
+- Mettre en place des notifications pour les joueurs !
